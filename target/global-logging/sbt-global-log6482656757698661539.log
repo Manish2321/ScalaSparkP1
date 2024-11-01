@@ -1,0 +1,179 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(-debug, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(debug, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.10.4 (Homebrew Java 23.0.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 42.420625ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 67.097417ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.083375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /Users/manishkumartyagi/Downloads/bada project/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/manishkumartyagi/Downloads/bada project/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 5.510917 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(bada-project-build) took 16.249375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id bada-project-build, base: /Users/manishkumartyagi/Downloads/bada project/project, plugins: List(<none>))) took 30.6855ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/manishkumartyagi/Downloads/bada project/project, returning: (bada-project-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 37.812167ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.0745ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/Users/manishkumartyagi/Downloads/bada%20project/project/, ...) took 107.293459ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 364.240458ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 4.085417ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 36.065083ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 2.9055ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 157.579584ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 40.919833ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.545917ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /Users/manishkumartyagi/Downloads/bada project/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 1610.893292ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.0025ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /Users/manishkumartyagi/Downloads/bada project[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 3.593834ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/manishkumartyagi/Downloads/bada project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 0.749291 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project bada-project from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(bada-project) took 1.078084ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id bada-project, base: /Users/manishkumartyagi/Downloads/bada project, plugins: List(<none>))) took 2.067875ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/manishkumartyagi/Downloads/bada project, returning: (bada-project)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 98.459667ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 2.06975ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/Users/manishkumartyagi/Downloads/bada%20project/, ...) took 1712.42575ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 1725.876625ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.060583ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 4.698958ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.164042ms[0m
+[0m[[0m[31merror[0m] [0m[0mCyclic reference involving [0m
+[0m[[0m[31merror[0m] [0m[0m   ProjectRef(uri("file:/Users/manishkumartyagi/Downloads/bada%20project/"), "bada-project") / removeDuplicateManifest[0m
+[0m[[0m[31merror[0m] [0m[0m   ProjectRef(uri("file:/Users/manishkumartyagi/Downloads/bada%20project/"), "bada-project") / Compile / packageBin[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$Cyclic.$colon$colon(Dag.scala:78)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.visit$1(Dag.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.$anonfun$topologicalSort$2(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.$anonfun$topologicalSort$2$adapted(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.visitAll$1(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.visit$1(Dag.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.$anonfun$topologicalSort$2(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.$anonfun$topologicalSort$2$adapted(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:335)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:1111)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.visitAll$1(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.visit$1(Dag.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.$anonfun$topologicalSort$2(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.$anonfun$topologicalSort$2$adapted(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:335)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:1111)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.visitAll$1(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.visit$1(Dag.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.$anonfun$topologicalSort$2(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.$anonfun$topologicalSort$2$adapted(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.HashMap$HashMapValues.$anonfun$foreach$2(HashMap.scala:158)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.HashMap$HashMap1.foreachEntry(HashMap.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.HashMap$HashTrieMap.foreachEntry(HashMap.scala:735)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.HashMap$HashTrieMap.foreachEntry(HashMap.scala:735)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.HashMap$HashMapValues.foreach(HashMap.scala:158)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.visitAll$1(Dag.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Dag$.topologicalSort(Dag.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Init.sort(Settings.scala:231)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Init.sort$(Settings.scala:230)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Def$.sort(Def.scala:25)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Init.makeWithCompiledMap(Settings.scala:220)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Init.makeWithCompiledMap$(Settings.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Def$.makeWithCompiledMap(Def.scala:25)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.$anonfun$apply$5(Load.scala:262)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1407)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.apply(Load.scala:254)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.defaultLoad(Load.scala:57)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.BuiltinCommands$.liftedTree1$1(Main.scala:964)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.BuiltinCommands$.doLoadProject(Main.scala:964)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.BuiltinCommands$.$anonfun$loadProjectImpl$2(Main.scala:917)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Command$.$anonfun$applyEffect$4(Command.scala:151)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Command$.$anonfun$applyEffect$2(Command.scala:146)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Command$.process(Command.scala:194)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.$anonfun$processCommand$7(MainLoop.scala:267)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.getOrElse(Option.scala:189)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.process$1(MainLoop.scala:267)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.processCommand(MainLoop.scala:314)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.$anonfun$next$5(MainLoop.scala:171)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.State$StateOpsImpl$.runCmd$1(State.scala:290)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.State$StateOpsImpl$.process$extension(State.scala:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.$anonfun$next$4(MainLoop.scala:171)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.next(MainLoop.scala:171)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.run(MainLoop.scala:152)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.$anonfun$runWithNewLog$1(MainLoop.scala:127)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.io.Using.apply(Using.scala:41)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.runLogged(MainLoop.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.StandardMain$.runManaged(Main.scala:225)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.xMain$.$anonfun$run$11(Main.scala:135)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Console$.withIn(Console.scala:230)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.withIn(Terminal.scala:610)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.$anonfun$withStreams$1(Terminal.scala:390)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Console$.withOut(Console.scala:167)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.$anonfun$withOut$2(Terminal.scala:600)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Console$.withErr(Console.scala:196)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.withOut(Terminal.scala:600)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.withStreams(Terminal.scala:390)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.xMain$.withStreams$1(Main.scala:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.xMain$.run(Main.scala:123)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:580)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.xMain.run(Main.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.run(Launch.scala:149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.launch(Launch.scala:159)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.apply(Launch.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.apply(Launch.scala:21)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Boot$.runImpl(Boot.scala:78)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Boot$.run(Boot.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Boot$.main(Boot.scala:21)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Boot.main(Boot.scala)[0m
+[0m[[0m[31merror[0m] [0m[0mCyclic reference involving [0m
+[0m[[0m[31merror[0m] [0m[0m   ProjectRef(uri("file:/Users/manishkumartyagi/Downloads/bada%20project/"), "bada-project") / removeDuplicateManifest[0m
+[0m[[0m[31merror[0m] [0m[0m   ProjectRef(uri("file:/Users/manishkumartyagi/Downloads/bada%20project/"), "bada-project") / Compile / packageBin[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadFailed, None, None)[0m
+[0m[[0m[33mwarn[0m] [0m[0mProject loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
